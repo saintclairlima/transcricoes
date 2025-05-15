@@ -1,0 +1,7 @@
+bert-score
+spacy
+matplotlib
+numpy
+python-louvain
+torch
+scipy
