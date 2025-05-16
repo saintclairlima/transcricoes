@@ -41,7 +41,7 @@ class FragmentadorSemantico:
         """
         # BERTScore returns three values: Precision, Recall, and F1 Score
         # Here we use F1 Score as the similarity measure
-        _, _, f1_score = self.bertscore(vec_a, vec_b, lang='pt', model_type='xlm-roberta-base')
+        _, _, f1_score = self.bertscore(vec_a, vec_b, lang='pt', model_type='xlm-roberta-base', device=str(self.dispositivo))
         # f1_score is a tensor with the F1 score for each pair of sentences.
         # Since we only have one pair, we take the first (and only) element.
         return [f1_score[i].item() for i in range(len(vec_a))]
@@ -77,7 +77,10 @@ class FragmentadorSemantico:
         # Compute cosine similarity for each pair of strings
         similarities = []
         for i in range(len(embeddings_a)):
-            similarity = 1 - cosine(embeddings_a[i][0], embeddings_b[i][0])
+            similarity = 1 - cosine(
+                embeddings_a[i][0].cpu().numpy(),
+                embeddings_b[i][0].cpu().numpy()
+            )
             similarity = (similarity + 1) / 2
             similarity = max(0.0, min(1.0, similarity))
             similarities.append(similarity)
