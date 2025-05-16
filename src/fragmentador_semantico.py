@@ -206,4 +206,6 @@ def create_tiles(text, model='jvanhoof/all-MiniLM-L6-multilingual-v2-en-es-pt-pt
     tiled_text = ['\n'.join(sentences[tiles_idxs[idx] : tiles_idxs[idx+1]]) for idx in range(len(tiles_idxs) - 1)]
     return tiles_idxs, tiled_text
 
-
+def fragmentar(texto, modelo='jvanhoof/all-MiniLM-L6-multilingual-v2-en-es-pt-pt-br-v2'):
+    _, fragmentos =  create_tiles(text=texto, model=modelo)
+    return fragmentos
