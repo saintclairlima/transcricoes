@@ -15,7 +15,7 @@ Em `src/testes` tem código e dados utilizados para avaliação de alguns modelo
 
 Em `dados` temos um arquivo `.json` com os dados públicos das transcrições conforme disponibilizadas na página de vídeos da Assembleia Legislativa do Estado do Rio Grande do Norte. São os dados que são utilizados para geração de fragmentos no código de exemplo. 
 
-Além disso
+Além disso, há o arquivo `dados_embeddings_bge-m3.pkl`, com um dicionário com os mesmos dados do arquivo `.json`, incluindo uma representação dê cada transcrição em embeddings gerados com o modelo `BAAI/BGE-M3`. O formato do dicionário segue o que a biblioteca `chromadb` utiliza.
 
 ## Utilização
 ``` bash
