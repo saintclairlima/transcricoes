@@ -1,0 +1,5 @@
+BERT Score score: 0.9147 - 9 segundos
+mpnet-base-v2 score: 0.9124 - 102 segundos
+BERT Pt score: 0.9395 - 96 segundos
+MiniLM-L12-v2 score: 0.9404 - 35 segundos
+MiniLM-L6-en-es-pt-pt-br-v2 score: 0.9693 - 20 segundos

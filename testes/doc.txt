@@ -1,0 +1,438 @@
+A natureza da Luz
+O físico e engenheiro irlandês William Thomson (Lord Kelvin) em
+um artigo publicado em 1901 afirma1
+: No céu azul da física clássica
+existem apenas duas nuvens a serem dirimidas... Sendo esta frase
+vinda de uma versão revisada de um discurso proferido no ano
+anterior. O título do artigo é: “Nuvens do século dezenove sobre
+a teoria dinâmica do calor e da luz”. As duas nuvens que o artigo
+menciona se refere ao que ficou conhecido como o efeito fotoelétrico e a divergência que surge quando se calculava a potência da radiação emitida por um corpo devido a sua temperatura. Para Lord
+Kelvin se essas duas nuvens se dissipassem, ou seja, se o efeito fotoelétrico e o problema de divergência na radiação de corpo negro
+fossem resolvidos pelo paradigma da física clássica, a física como
+um corpo de conhecimento que consegue explicar os fenômenos
+da natureza estaria fechado. Ocorre que para se explicar esses dois
+fenômenos foi preciso mudar radicalmente a visão conceitual que
+o eletromagnetismo clássico havia fornecido à física clássica. Neste
+capítulo vamos introduzir os conceitos que fornecem possibilidade
+de se resolver esses dois problemas: a natureza discreta da radiação
+(corpuscular) e a natureza ondulatória das partículas.
+A primeira pista para a natureza quântica da radiação veio do
+estudo da radiação térmica emitida por corpos aproximadamente
+negros. Quando a radiação incide sobre um corpo opaco, parte dela
+é refletida e o restante é absorvido. Corpos de cor clara refletem
+maior parte da radiação visível incidente sobre eles, enquanto
+corpos escuros absorvem a maior parte. A parte de absorção do
+processo pode ser descrita resumidamente da seguinte forma: A
+radiação absorvida pelo corpo aumenta a energia cinética dos
+átomos constituintes, que oscilam sobre suas posições de equilíbrio. Desde que a energia cinética média de translação dos átomos
+determina a temperatura do corpo, a energia absorvida faz com
+que a temperatura suba. No entanto, os átomos contêm cargas
+(os elétrons), e estas cargas são aceleradas devido às oscilações.
+Consequentemente, como exigido pela teoria eletromagnética, os átomos emitem radiação eletromagnética, o que reduz a energia
+cinética das oscilações e tende a reduzir a temperatura. Quando
+a taxa de absorção é igual à taxa de emissão, a temperatura é
+constante, e dizemos que o corpo está em equilíbrio térmico com o
+seu entorno. Um bom absorvedor de radiação é, portanto, também
+um bom emissor.
+A radiação eletromagnética emitida sob essas circunstâncias
+é chamada radiação térmica. Em temperaturas ordinárias (abaixo
+de cerca de 600ºC) a radiação térmica emitida por um corpo não é
+visível a olho nú; maior parte da energia está concentrada em comprimentos de onda muito maiores do que os da luz visível. Quando
+um corpo é aquecido, a quantidade de radiação térmica emitida
+aumenta, e a energia irradiada se eleva, tornando seus comprimentos de onda mais curtos. Para o intervalo de 600-700ºC, há energia
+suficiente no espectro visível para que o corpo brilhe e se torna um
+vermelho rubro, e em temperaturas mais altas torna-se vermelho
+brilhante ou mesmo um “branco quente”.
+Um corpo que absorve toda a radiação incidente sobre ele é
+chamado de um corpo negro ideal. Em 1879, Josef Stefan encontrou uma relação empírica entre a potência radiada por um corpo
+negro ideal e a temperatura:
+Sendo R a potência radiada por unidade de área, T é a temperatura absoluta, e σ = 5,6703×10-8 W/m2K4
+ é uma constante chamada
+constante de Stefan. Este resultado foi também derivado com base
+em termodinâmica clássica por Ludwig Boltzmann cerca de cinco
+anos depois, e a Equação 1.1 é agora chamada a Lei de Stefan-
+-Boltzmann. Note que a potência por unidade de área irradiada por
+um corpo negro depende apenas da temperatura e não de qualquer
+outra característica do objeto, tais como sua cor ou de que material ele é composto. Note, também, que R nos diz a taxa com que a
+energia é emitida pelo objeto. Por exemplo, dobrando a temperatura
+absoluta de um objeto, por exemplo, uma estrela aumenta o fluxo
+de energia para fora do objeto por um fator de 24
+=16. Assim, a lei de Stefan-Boltzmann tem um enorme efeito sobre
+o estabelecimento do equilíbrio térmico em sistemas físicos.
+Objetos, que não são corpos negros, irradiam energia ideal por
+unidade de área a uma taxa menor do que a de um corpo negro
+à mesma temperatura. Para os objetos essa taxa independe das
+propriedades intrínsecas além da temperatura, tais como a cor
+e composição da superfície. Os efeitos dessas dependências são
+combinados em um fator chamado pemissividade ϵ, que multiplica
+o lado direito da Equação 1.1. Os valores de ϵ dependem da temperatura, e são sempre menores que a unidade.
+Como a potência total irradiada R, a distribuição espectral da
+radiação emitida por um corpo negro encontrado empiricamente,
+depende apenas da temperatura absoluta T.
+A distribuição espectral é determinada experimentalmente
+como ilustrada na Figura 1.1.
+Com R(λ)dλ sendo a potência emitida por unidade de área, com
+comprimento de onda entre λ e λ+dλ a figura abaixo mede a função
+de distribuição espectral R(λ) versus λ para valores de T no intervalo de 1000K à 6000K.
+A curva R(λ) na Figura 1.2 ressalta importante comportamento
+em diversos aspectos. Por exemplo, o comprimento de onda em
+que a função tem o seu máximo valor, varia inversamente com a
+temperatura:
+Isto é conhecido como a Lei de Deslocamento de Wien, descoberto em 1893 por Wien.
+.<<SEPARADOR>>.
+Cozinhar... não sabemos precisar exatamente quem foi o primeiro a executar esta ação,
+mas, em algum momento da história, o homem foi capaz de dominar o fogo e usá-lo para preparar alimentos. Os primeiros cozinheiros não estavam muito preocupados com formas ou técnicas de preparo,
+mas logo entenderam que a cocção era importante e fundamental para facilitar a digestão e a conservação dos alimentos. A partir de então, a quantidade de ingredientes e, consequentemente, a variedade
+de nutrientes se mostrava bastante ampliada (Savarin, 1995; Abreu, 2001).
+As evidências indicam a inexistência de provas a respeito de receitas no início da história
+da humanidade, mas apenas fatos arqueológicos relacionados ao preparo de alimentos, reforçados,
+obviamente, por todo o conhecimento trazido ao longo da história da alimentação. Ou seja, desde os
+primórdios, existe uma busca de algo além do alimento em si e, nessa perspectiva, com o passar dos
+séculos, se desenvolveu a arte de comer e beber (Savarin, 1995; Pollan, 2013).
+Neste percurso, questões envolvendo preferências alimentares, mitos, hábitos culinários e
+comportamento à mesa, trouxeram uma nova relação do alimento com as sociedades. A globalização dos
+saberes culinários promoveu uma forte valorização da percepção visual e olfativa dos pratos, associada
+a um rompimento do saber e fazer tradicionais. Desta forma, as práticas culinárias sofreram alterações
+constantes ao longo da história, ocorridas por necessidade, miscigenação, curiosidade ou simplesmente
+criatividade e inovação. Por meio da exploração de muitos alimentos novos, alguns deles aceitos de
+imediato, tal processo favoreceu a troca de ingredientes entre países e culturas (Santos, 2009).
+A alimentação contemporânea, anteriormente entendida simplesmente como o ato de comer, termina por sofrer vários impactos, reflexo histórico das transformações sociais, econômicas, culturais
+e socioambientais. A temática socioambiental, por exemplo, está diretamente associada às questões de
+sustentabilidade, que estabelecem vínculos entre a produção e o seu consumo, pelos quais perpassam os
+riscos trazidos pelos alimentos, bem como os problemas na sua cadeia de produção (Fonseca et al, 2011).
+Nessa abordagem, a alimentação se inicia com a produção de alimentos e avança fortemente nos discursos de saúde, estética, dietética e comensalidade. Todas relacionadas ao ato de comer e
+sempre controladas por indivíduos e grupos sociais, que tomam decisões a partir de seus saberes familiares, religiosos, culturais, tradicionais, econômicos ou profissionais (Santos, 2009; Castro et al., 2016).
+Assim, o ato de cozinhar baseia-se no uso de ingredientes e suas modificações a partir
+da aplicação de um determinado método e, independente da simplicidade ou não do ato, a culinária
+sempre foi um dos pilares da evolução biológica e cultural das sociedades. De fato, o que se observa
+nas práticas alimentares contemporâneas é um padrão de consumo alimentar semelhante, porém com
+ofertas reduzidas, tanto em qualidade quanto em variedade.
+Dentre os inúmeros conceitos trazidos pela gastronomia globalizada, há um confrontamento entre as novas tendências culinárias e as questões de memória. Ambos trabalhando para um reencontro da significação alimentar com os saberes tradicionais, ressaltando a alimentação como um espaço de
+trocas, influências, encontros e desencontros, e as novas tendências culinárias como fonte de inovação,
+sendo a cozinha um espaço de criação e prática artística e culinária (Castro et al., 2016).
+No Brasil os ingredientes são abundantes. Entretanto, saber o que comer e em que proporção tem se tornado uma preocupação de uma sociedade que tenta caminhar com foco na promoção da
+saúde, do bem-estar e da sustentabilidade. Com 15 a 20% da diversidade biológica mundial, o Brasil é
+reconhecido como o país da biodiversidade e o mais importante entre os 17 países chamados de megadiversos (Mittermeier et al., 1997). Detém em seu território a maior riqueza de espécies da flora no mundo,
+além dos maiores remanescentes de ecossistemas tropicais (Myers et al., 2000; Ulloa Ulloa et al., 2017).
+Alguns dos sistemas ecológicos mais ricos do planeta em número de espécies vegetais - a Amazônia, a
+Mata Atlântica e os Cerrados, estão no Brasil e essa variedade de biomas reflete a enorme riqueza da
+flora e fauna brasileiras.
+Além disso, o país possui uma rica diversidade sociocultural, representada por diversos
+povos e comunidades tradicionais, como indígenas, quilombolas, ribeirinhos, marisqueiras, pescadores
+artesanais, caiçaras, sertanejos, pantaneiros, entre outros, que reúnem um inestimável acervo de conhecimentos tradicionais sobre conservação e uso da biodiversidade. Essas culturas, que mantém uma
+forte relação com a biodiversidade do ambiente em que vivem, são guardiões de um enorme acervo de
+conhecimentos tradicionais, envolvendo saberes, crenças e costumes (SEPPIR, 2018; MMA, 2018).
+A Biodiversidade é uma das propriedades fundamentais da natureza e fonte de enorme
+potencial de uso econômico. É a base das atividades agrícolas, pecuárias, pesqueiras e florestais e,
+também, da estratégica indústria da biotecnologia. Esse imenso potencial, econômico e social, deve ser
+considerado como uma oportunidade valiosa para os diferentes setores da sociedade.
+Uma parte significativa da biodiversidade refere-se às espécies de valor real ou potencial,
+direta ou indiretamente utilizadas pelo homem. Entretanto, apesar da sua enorme importância, essa
+riqueza no Brasil é, de um modo geral, ainda pouco conhecida, negligenciada e subutilizada. Outrossim,
+nem todos os recursos vegetais são utilizados com a mesma intensidade, já que algumas espécies,
+embora apresentem grande potencial de uso, são empregadas apenas em âmbito local ou regional.
+Na verdade, o Brasil utiliza uma parcela muito pequena da sua vasta biodiversidade, que se reflete na
+baixa diversificação dos alimentos consumidos pela população e em uma dieta altamente simplificada.
+Infelizmente, em razão de padrões culturais impostos e fortemente arraigados, que privilegiam produtos
+e cultivos exóticos, originários de outros países, a biodiversidade brasileira continua à espera de uma
+oportunidade para mostrar toda a sua relevância e potencial.
+A potencialidade da nossa flora nativa não está, portanto, refletida nos supermercados,
+nas feiras e, muito menos, na cozinha do brasileiro (Coradin, Camillo, 2016). Para mudar esse cenário e
+promover um uso mais efetivo da flora nativa, assim como para melhorar a percepção do brasileiro para
+o potencial de uso das nossas espécies nativas, foi estabelecida pelo Ministério do Meio Ambiente, no
+início da década passada, a Iniciativa Plantas para o Futuro (http://www.mma.gov.br/publicacoes/biodiversidade/category/142-serie-biodiversidade.html). A Iniciativa tem como objetivo identificar e priorizar
+as espécies nativas de maior potencial, de modo a torná-las mais conhecidas, ampliar as possibilidades
+de uso, resgatar conhecimentos tradicionais e diversificar as opções na cozinha do brasileiro.
+O Plantas para o Futuro busca promover um uso mais sustentável das espécies nativas, com
+menor impacto ao meio ambiente. A melhoria no conhecimento dessas espécies abre caminho para um
+uso mais amplo e efetivo desse fascinante mundo da nossa biodiversidade. Ao mobilizar os diferentes
+setores da sociedade para uma maior valorização da biodiversidade nativa, a Iniciativa Plantas para o
+Futuro trabalha para tirar as espécies nativas da condição de culturas marginais e elevá-las a um novo
+patamar: o da produção comercial.
+Desde 2012 esta Iniciativa vem sendo conduzida com o apoio do Projeto “Conservação e uso
+sustentável da biodiversidade para melhoria da nutrição e do bem-estar humano” – BFN, mais conhecido
+como “Biodiversidade para Alimentação e Nutrição”. O BFN é um projeto internacional, envolvendo, além
+do Brasil, o Quênia, o Sri Lanka e a Turquia (http://www.b4fn.org/countries/brazil/). No âmbito nacional, as
+atividades são coordenadas pelo Ministério do Meio Ambiente, por meio da Secretaria de Biodiversidade
+e da Secretaria de Extrativismo e Desenvolvimento Rural Sustentável.
+.<<SEPARADOR>>.
+TIPOS PSICANALÍTICOS DE PERSONALIDADE
+As fases do desenvolvimento psicossexual da criança:
+1º Estágio - Fase Oral - Este período do desenvolvimento da personalidade é assim chamado
+porque a maior parte das necessidades e interesses da criança está concentrada na porção
+superior do trato digestivo. Quer dizer, seus impulsos são satisfeitos principalmente na área da
+boca, esôfago e estômago, ou melhor, a libido está intimamente associada ao processo de
+alimentação. É o período de aproximadamente um ano que segue ao nascimento.
+2º Estágio - Fase Anal - A criança passa, aos poucos, de uma posição predominantemente
+passiva e receptiva para uma posição predominantemente ativa. Durante o segundo e terceiro
+ano de vida, a região do ânus adquire uma importância fundamental na formação da
+personalidade. Neste período a energia libidinosa está centrada na porção posterior do trato
+digestivo e a satisfação anal ocupa uma posição de destaque. A criança obtém prazer pela
+estimulação da mucosa retal e das partes adjacentes. Precursores do superego.
+Desenvolvimento psicossocial: Autonomia X vergonha e dúvida. É o período de transição de um
+ano para p segundo e que segue aos três anos de idade. 
+3º Estágio - Fase Fálica - Corresponde ao período que vai dos três anos aos cinco ou seis anos de
+idade. O termo fálico, relativo ao pênis, usado para esta fase, provém do fato da libido
+concentrar-se nos órgãos genitais que passam a ser a zona erógena predominante. O complexo
+de Édipo e o complexo de castração bem como o desenvolvimento psicossocial: Iniciativa X
+culpa. Veremos mas profundada essa fase na próxima disciplina o importante é você fixar esses
+conceitos que são muito utilizado na sua formação e no seu exercício profissional.
+4º Estágio - Fase de Latência - Período que vai, aproximadamente, dos cinco aos dez anos. Este
+período caracteriza-se por uma aparente interrupção do desenvolvimento sexual, em que os
+impulsos eróticos exercem menor influência na conduta e o ego encontra uma trégua para os
+conflitos emocionais que vinham se desenrolando nas fases anteriores. Afastando-se
+temporariamente dos interesses sexuais, a criança utiliza a energia psíquica para o
+fortalecimento do ego.
+Vamos nos referir mais objetivamente a esses tipos psicanalíticos de personalidade:
+Personalidade Oral – esta reflete as experiências infantis durante o estágio oral da
+libido. As tendências caracterológicas para a prepotência, domínio sobre os outros, voracidade,
+cobiça e inveja estão radicadas no impulso primitivo da criança para incorporar oralmente a
+mãe (objeto total) ou o seio materno (objeto parcial). O otimismo é considerado um produto
+psicogênico de uma amamentação abundante e sem restrições.
+Personalidade Anal – reflete as experiências infantis durante a aprendizagem do
+controle da defecação. As tendências caracterológicas para a vaidade, desconfiança, ambição e
+generosidade sem amor estão associados ao prazer da evacuação. As tendências para a
+meticulosidade, parcimônia, amor à ordem e ao método, obstinação e avareza estão radicadas
+na retenção das fezes. Sendo um prazer ambivalente (evacuar pode significar, para a criança,
+expelir um mau objeto interno ou oferecer à mãe um mau objeto interno que pode envenená-la
+ou destruí-la).
+Tais tendências caracterológicas podem combinar-se no tipo de personalidade anal. Quando
+excessivamente acentuada, a personalidade anal pode resultar em uma fixação infantil, em
+virtude de a criança não ter sido capaz de conciliar os prazeres anais com as exigências sociais
+(por exemplo, o treino de toillete, a disciplina da higiene pessoal). 
+Personalidade Fálica – reflete as experiências marcadas pelo interesse e sentimentos
+associados ao pênis (para a mulher, o símbolo equivalente). As tendências caracterológicas para
+a ostentação generosa ou benemerente, o narcisismo, a camaradagem, a afiliação e atividades
+lúdicas (jogos, competições esportivas etc.) estão associadas à primazia fálica.
+São estes os três padrões básicos de personalidades originados nos estágios prégenitais do desenvolvimento psicossexual. A fase culminante do desenvolvimento sexual em
+que a pessoa estabelece relações verdadeiramente afetivas com o parceiro sexual corresponde,
+na caracterologia adulta, à personalidade genital, à síntese dos impulsos psicossexuais medidos
+não só pela potência fisiológica, mas também pela capacidade de amor em termos adultos. É o
+padrão equilibrado e maturo da personalidade adulta.
+Estrutura da Personalidade
+Id – Segundo o conceito freudiano de estrutura da personalidade, o id é o componente
+arcaico e inconsciente de energias mentais (psiqué) que dinamiza o comportamento humano.
+Do id promanam os impulsos cegos e impessoais devotados à gratificação do instinto sexual
+(libido), estreitamente vinculado às necessidades primárias das pessoas (comer e não ter fome).
+Temos, pois, que o id é o verdadeiro inconsciente ou a parte mais profunda da psiqué. Ignora o
+mundo exterior, com quem não está em contato, e o objeto único de seus interesses é o corpo,
+sendo suas relações com ele dominadas unicamente pelo princípio do prazer.
+Freud descreveu, ainda, a hegemonia total dos instintos do prazer nas fases primitivas
+do desenvolvimento mental, como decorrência direta do fato de as duas atividades básicas da
+criança pequena – mamar e defecar – terem provocado a sexualização (libidinização) da boca e
+do ânus, zonas erógenas. Ulteriormente, Freud ampliaria, com algumas modificações, esta sua
+primeira teoria (Para além do Princípio do Prazer) e a libido deixaria de identificar-se
+exclusivamente com o instinto sexual e o princípio do prazer, para ser eros – o instinto da vida e
+da auto-preservação, no qual o componente sexual estava logicamente incluído. 
+Ego – Segundo o conceito psicanalítico da estrutura da personalidade, enunciado por
+Sigmund Freud, o ego constitui o componente intermediário das energias mentais (entre o id –
+inconsciente – e o superego – ego ideal ou consciência). O ego exerce o controle das
+experiências conscientes e regula entre a pessoa e o meio ocupando, portanto, a posição de um
+centro de referência para todas as atividades psicológicas e qualidades egocêntricas. É através
+do ego que aprendemos tudo sobre a realidade externa e orientamos nosso comportamento no
+sentido de evitar os estados dolorosos, as ansiedades e as punições.
+Superego – Na estrutura teórica da personalidade descrita por Freud, o superego é a
+mais recente formação ou componente do sistema de energias mentais e foi correlacionado
+com o declínio e dissolução do Complexo de Édipo. A noção do superego foi inspirada nos
+estudos de introjeção de Sandor Ferenczi (a progressiva introjeção pela criança dos eventos em
+seu meio vital) e suas relações com o
+desenvolvimento de uma instituição moral a partir do ego.
+O superego é o representante de uma natureza superior que no eu (Freud) atua no
+sentido de evitar punições por transgressões morais ou fomentar ideais moralmente aceitos.
+Ele pode reprimir e criticar as idéias, impulsos e sentimentos inconscientes que afetam o
+comportamento moral e judicativo da personalidade (atividade a que se dá, usualmente, o
+nome de consciência, que pode apoiar a realização de uma natureza superior ou ideal). Assim,
+os três componentes básicos do sistema encontram-se permanentemente empenhados numa
+interação que é uma batalha constante: o id em busca de sua satisfação irracional, o ego
+procurando ajustar as exigências e impulsos do id ao mundo da realidade, e o superego
+tentando reprimir ou apoiar o impulso que for moral e socialmente reprovável ou louvável.
+Escreveu Freud: “O superego não é apenas o depositário das anteriores opções
+objetais; representa também uma enérgica formação de reação contra essas opções. Sua
+relação abrange a proibição: você não deve ser como tal (consciência)”.
+.<<SEPARADOR>>.
+Considerado por muitos historiadores como o primeiro
+representante da filosofia existencialista. Søren Aabye Kierkegaard
+nasceu a 5 de maio de 1813, em Copenhague, filho de Michael
+Pedersen Kierkegaard, então com 56 anos de idade, e de Anne
+Srensdatter, de 44 anos. Seu pai era um agricultor da Jutlândia
+ocidental que se mudou para Copenhague, onde enriqueceu como
+comerciante de lã.
+A primeira infância, Kierkegaard passou-a toda na companhia
+do pai, que insistia no aprendizado rigoroso do latim e do grego e
+inculcou no filho uma devoção pietista atormentada pela ansiedade.
+Desperto, desde muito cedo, para um tipo de vida imaginativa, pois
+seu pai exigia que representasse estórias e cenas teatrais,
+Kierkegaard passou a sentir a vida como um palco permanente para
+a devoção religiosa.
+A profundidade do sentimento religioso, que o acompanhou
+desde a infância, levou-o a ingressar no curso de teologia da
+Universidade de Copenhague. Nessa escola, Kierkegaard tomou
+conhecimento do sistema filosófico de Hegel (1770-1831), cuja
+influência estendia-se a todos os setores intelectuais e até mesmo à
+teologia protestante, que estava impregnada de seu racionalismo.
+Inicialmente, Kierkegaard deixou-se seduzir pelas sutilezas da
+dialética hegeliana; a lógica parecia-lhe uma “apaixonante
+voluptuosidade”. No entanto, logo começou a se sentir impressionado
+pela forma como o sistema hegeliano se arrogava o direito de ignorar
+a existência concreta do indivíduo. Por causa disso Kierkegaard
+passou a contestar energicamente o hegelianismo. Para o pensador
+dinamarquês, a existência humana não pode deixar-se dissolver na
+pura conceituação intelectual.
+Jean-Paul Sartre (1905 — ), analisando as relações entre os
+dois pensadores, afirma: “O que opõe Kierkegaard a Hegel é que para
+o último o trágico de uma vida é sempre superado. O vivido se
+dissolve no saber”. E acrescenta o filósofo existencialista francês:
+“‘Para Kierkegaard, pouco importa que Hegel fale de ‘liberdade para
+morrer’ ou que descreva corretamente alguns aspectos da fé, o que
+ele critica no hegelianismo é o fato de negligenciar a insuperável
+opacidade da experiência vivida. Não é somente, nem sobretudo no
+nível dos conceitos que está o desacordo, mas antes no da crítica do
+saber e da delimitação de seu alcance”.
+A angústia da sensualidade
+A filosofia de Hegel opunha-se ao desejo intelectual mais
+profundo de Kierkegaard: “uma verdade que seja verdadeira para
+mim” ou “a idéia pela qual eu possa viver e morrer”. Por outro lado, o
+luteranismo então imperante na Dinamarca também se opunha à
+sua concepção da verdade filosófica. Kierkegaard sentia que a Igreja
+luterana estava por demais burocratizada e afastada da religiosidade
+interior, que considerava essencial para o verdadeiro cristão. O jovem
+Kierkegaard, obcecado pelo sentimento do pecado e pela angústia da
+sensualidade que o assaltavam nessa época, tornou-se então um
+“filósofo solitário”, no dizer de Jean Wahl, e abandonou a religião. Ao
+mesmo tempo, entregou-se a uma vida desregrada de prazeres,
+gastando altas somas em roupas, comidas e bebidas. Esse período
+crítico de sua juventude iniciou-se no mesmo ano da morte de seu
+pai (1838) e teve evidentes relações com esse triste acontecimento.
+Passados os primeiros momentos de crise, Kierkegaard
+resolveu retomar os estudos universitários e tornar-se pastor. Em
+1841, terminou a tese Sobre o Conceito de Ironia e pregou o primeiro
+sermão.
+Um ano antes, ficara noivo de Regine Olsen, jovem de 17 anos
+de idade. Contudo, à medida que se definia a singularidade de sua
+vocação, Kierkegaard começou a perceber que não seria capaz de
+partilhar sua vida com outra pessoa; ao mesmo tempo, achava que
+não lhe cabia o papel convencional de pastor protestante. Decidiu
+então romper o noivado, interpretando a decisão como conseqüência
+de uma vocação filosófica e religiosa. “De fato — comenta Lukács —
+mesmo Regine, que ele havia abandonado, que em sonho
+transformara em um ideal além de seu alcance, não pode ser para
+Kierkegaard mais que uma etapa, porém uma etapa que o conduziu
+de maneira mais acertada a seu objetivo.”
+Com o rompimento do noivado, Regine Olsen sentiu-se ferida
+em seu orgulho de mulher e casou-se com Fritz Schlegel,
+posteriormente governador das Índias Ocidentais Holandesas.
+Kierkegaard passou a viver solitariamente sua realidade singular e
+incomunicável, declarando que sua vida deveria ser “reflexão do
+princípio ao fim”. Em carta a Peter Lind, chamava a atenção para a
+vantagem de sentir-se um tanto abandonado por parte dos amigos.
+“O silêncio deles — afirmava — é nitidamente proveitoso para mim,
+porque me obriga a fixar a vista no meu eu; porque me estimula a
+aprender esse eu que é o meu; porque me obriga a manter-me fixo na
+infinita instabilidade da vida e a voltar para mim o espelho côncavo
+com que dantes procurava abarcar a vida fora de mim mesmo. Esse
+silêncio agrada-me porque me sinto capaz desse esforço e com
+coragem para segurar o espelho, mostre-me ele o que mostrar, o meu
+ideal ou a minha caricatura.” Homem problema para si mesmo,
+Kierkegaard nunca deixou de se interrogar e de se analisar a si
+próprio. Para ele, a filosofia resumia-se em tomar consciência das
+exigências absolutas feitas a qualquer pessoa que queira viver uma
+existência verdadeiramente autêntica.
+A existência autêntica
+Apesar de viver isolado, Kierkegaard polemizou violentamente
+com personalidades dinamarquesas da época. A principal dessas
+polêmicas levou-o a atacar de maneira impiedosa as autoridades da
+Igreja luterana da Dinamarca. Inconformado com as disparidades
+entre o caráter introspectivo da fé cristã e o conformismo social e
+político da Igreja estabelecida, escreveu diversos artigos contra o
+primaz luterano Hans Larsen Martensen (1808-1884), que seguia
+uma orientação hegeliana Coerentemente com suas posições,
+Kierkegaard recusou-se a receber os sacramentos de pastor:
+“pastores são oficiais do rei; oficiais do rei nada têm a ver com a
+cristandade”.
+Ao lado das polêmicas que marcaram os anos seguintes ao
+rompimento de seu noivado, Kierkegaard dedicou-se intensamente à
+redação de inúmeras obras, muitas das quais vindas a público sob
+curiosos pseudônimos: Victor Eremita, Johannes de Silentio,
+Constantin Constantio, Johannes Climacus, Nicolaus Notabene,
+Virgilius Haufniensis, Hilarius Bogbinder, Anti-Climacus. Entre
+essas obras, salientam-se Sobre o Conceito de Ironia (1841),
+Discursos Edificantes (1843/44), Ou, Ou. Um Fragmento de Vida
+(1843), Temor e Tremor (1843). A Repetição (1843) O Conceito de
+Angústia (1844), Etapas no Caminho da Vida (1845). O Desespero
+Humano (Doença até à Morte) (1849).
+.<<SEPARADOR>>.
+A córnea é um tecido transparente e avascular que está em contato
+com o ambiente externo. A ausência de queratina no epitélio,
+de vasos sanguíneos, de vasos linfáticos e de pigmentos em conjunto
+com a turgescência tecidual adequada e com organização estruturada
+de fibras colágenas interagindo com proteoglicanos possibilitam a
+transparência do tecido. Uma das suas funções principais é garantir
+a refração óptica. Para que essa função tenha sucesso, são necessárias
+curvatura regular a nível anteroposterior, transparência e estabilidade
+do filme lacrimal (FL). Por ser transparente, tem capacidade de
+realizar transmissão e refração da luz e, por ser resistente, representa
+uma barreira física entre as estruturas internas do olho e o meio ambiente.
+É inervada por fibras nervosas originadas da divisão oftálmica
+do nervo trigêmeo, o que lhe atribui grande sensibilidade ao toque.
+Os nervos ciliares longos, derivados do nervo trigêmeo, formam o
+anel nervoso perilímbico com fibras que levam à formação do plexo
+sub-epitelial. Suas fibras nervosas perdem a camada de mielina ao
+emergirem da camada de Bowman.
+Apresenta superfície externa convexa (face anterior) com aproximadamente
+11,7 mm no diâmetro horizontal; 10,6 mm no diâmetro
+vertical e poder dióptrico +48,8 dioptrias (D) e superfície interna
+côncava (face posterior) com diâmetro de aproximadamente 11,7
+mm e poder dióptrico de -5,8D. Assim, a córnea representa um total
+de 43 D, ou seja, aproximadamente 70% da refração total ocular.
+A espessura total varia, é menor no centro, com média de 540
+μm, e mais espessa na periferia, com 610 μm. Vale ressaltar que a
+medida dessa espessura é capaz de avaliar a integridade estrutural e
+fisiológica endotelial corneana.
+Em sua porção posterior, é contínua com a esclera, que apresenta
+características diferenciadas da córnea, como o grau de hidratação
+e a disposição das fibras colágenas. No ponto de união entre
+ambas estruturas, está a região denominada limbo esclerocorneano,
+que representa a zona de transição entre o epitélio conjuntival e o
+epitélio corneano.
+A córnea corresponde a um sexto anterior da túnica fibrosa
+ocular. Num corte transversal, é possível identificar cinco camadas no
+tecido: epitélio da córnea, membrana de Bowman, estroma, membrana
+de Descemet e endotélio (ou epitélio posterior).
+Figura1 - Representação da córnea: a. Corte de toda a espessura da córnea. b.
+Ampliação da superfície anterior da córnea. c. Ampliação da superfície posterior
+da córnea. EP: epitélio; BM: membrana de Bowman; SP: estroma da córnea; DM:
+membrana de Descemet; Em: endotélio.
+O epitélio corneano é estratificado pavimentoso não queratinizado,
+com aproximadamente 50-90 μm de espessura, constituído por
+cinco a sete camadas de células nucleadas com alta capacidade de regeneração,
+sendo uma camada de células colunares basais, duas ou três
+camadas de células intermediárias e duas ou três camadas de células
+superficiais. Repousa sobre uma membrana basal composta principalmente
+por colágeno do tipo IV e proteínas da matriz extracelular.
+A primeira camada ou camada germinativa do epitélio é formada
+por células basais colunares, com 18 a 20 μm de altura e 8 a
+10 μm de diâmetro. Essas células apresentam núcleos ovais e elevada
+quantidade de organelas citoplasmáticas; realizam mitoses, o
+que possibilita capacidade de regeneração celular; renovam-se a cada
+sete dias. São aderidas entre si por desmossomos e, na porção posterior,
+estão aderidas à membrana basal por hemidesmossomos, que
+as tornam contínuas com o limbo na periferia corneana. A segunda
+camada epitelial ou camada intermediária é composta por células
+poliédricas com formato alongado e núcleo oval, convexas em sua
+porção apical. Repousam sobre as células basais e apresentam processos
+basais inseridos entre elas. São interligadas entre si por desmossomas.
+As células mais superficiais são poligonais ou poliédricas e se
+tornam mais achatadas à medida que se aproximam da superfície. A
+espessura varia, aproximadamente 4 a 6 μm na região dos núcleos e
+2 μm na periferia celular. Apresentam microvilosidades - projeções
+responsáveis por aumentar a superfície de contato - mergulhadas na
+camada mucosa do FL, fluido protetor que contém lipídios e glicoproteínas.
+Realizam conexões com as células mais profundas por
+meio de junções ocludentes, que conferem ao epitélio a propriedade
+de uma membrana semipermeável.
+A camada de Bowman é uma região homogênea, com espessura
+média de 7 a 12 μm, localizada abaixo do epitélio e de sua membrana
+basal. É constituída por delgadas fibras colágenas cruzadas, que
+conferem elevada resistência ao tecido corneano, mas não têm elevado
+poder regenerativo. Apresenta fibras nervosas responsáveis pela
+inervação sensitiva da córnea.
