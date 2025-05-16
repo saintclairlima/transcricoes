@@ -14,6 +14,7 @@ from bert_score import score
 class FragmentadorSemantico:
     def __init__(self, nome_modelo:str, dispositivo:str=None):
         self.dispositivo = torch.device("cuda" if torch.cuda.is_available() else "cpu") if not dispositivo else dispositivo
+        print('utilizando ', self.dispositivo)
 
         if nome_modelo == 'bertscore':
             from bert_score import score
