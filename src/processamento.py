@@ -14,7 +14,7 @@ def fragmentar_transcricoes(url_transcricoes: str, url_saida, nome_modelo, log=T
 
     num_entradas = len(transcricoes)
     for idx in range(num_entradas):
-        if log: print(f'\rProcessando transcrições - {format((idx+1)/num_entradas,'.2%')}', end='')
+        if log: print(f'''\rProcessando transcrições - {format((idx+1)/num_entradas,'.2%')}''', end='')
         transcricao = transcricoes[idx]
         transcricao['transcricao'] = fragmentador.fragmentar(texto=transcricao['transcricao'])
         
