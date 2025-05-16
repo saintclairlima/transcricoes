@@ -2,14 +2,13 @@ import argparse
 import json
 from typing import List
 
-from src.fragmentador_semantico import fragmentar as fragmentacao_semantica
+from src.fragmentador_semantico import FragmentadorSemantico
 
-def fragmentar_texto(texto: str, nome_modelo:str) -> List[str]:
-    return fragmentacao_semantica(texto=texto, modelo=nome_modelo)
+def fragmentar_transcricoes(url_transcricoes: str, url_saida, nome_modelo, log=True) -> None:
+    if log: print(f'Criando fragmentador...')
+    fragmentador = FragmentadorSemantico(nome_modelo=nome_modelo)
 
-def fragmentar_transcricoes(url_transcricoes: str, url_saida, nome_modelo, log=True):
     if log: print(f'Iniciando fragmentação de {url_transcricoes}. Saída em: {url_saida}')
-
     with open(url_transcricoes, 'r', encoding='utf-8') as arq:
         transcricoes = json.load(arq)
 
@@ -17,7 +16,8 @@ def fragmentar_transcricoes(url_transcricoes: str, url_saida, nome_modelo, log=T
     for idx in range(num_entradas):
         if log: print(f'\rProcessando transcrições - {format((idx+1)/num_entradas,'.2%')}', end='')
         transcricao = transcricoes[idx]
-        transcricao['transcricao'] = fragmentar_texto(texto=transcricao['transcricao'], nome_modelo=nome_modelo)
+        transcricao['transcricao'] = fragmentador.fragmentar(texto=transcricao['transcricao'])
+        
     if log: print('\nConcluído.')
     if log: print(f'Salvando resultados em {url_saida}')
     with open(url_saida, 'w', encoding='utf-8') as arq:
