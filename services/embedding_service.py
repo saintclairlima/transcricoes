@@ -1,5 +1,4 @@
 from google import genai
-from app.config.settings import EMBEDDING_MODEL
 
 class EmbeddingService:
 
