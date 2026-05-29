@@ -1,4 +1,5 @@
 from fastapi import APIRouter, HTTPException, Query
+from fastapi.responses import JSONResponse
 
 from config.settings import MODELO_EMBEDDINGS, CHAVE_API_GEMINI
 from schemas.request_models import SearchRequest
@@ -41,7 +42,8 @@ async def search_documents(request: SearchRequest):
 # --- MÉTODO GET ---
 @router.get(
     "/search",
-    response_model=SearchResponse
+    response_model=SearchResponse,
+    response_class=JSONResponse
 )
 async def search_documents_get(
     query: str = Query(..., description="Texto a ser buscado"),
