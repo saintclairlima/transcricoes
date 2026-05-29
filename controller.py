@@ -27,9 +27,12 @@ async def search_documents(request: SearchRequest):
 
     try:
 
+        # embedding = embedding_service.generate_embedding(
+        #     request.query
+        # )
         embedding = embedding_service.generate_embedding(
-            request.query
-        )
+            [request.query]
+        )[0]
 
         results = repository.search_similar_documents(
             embedding=embedding,
