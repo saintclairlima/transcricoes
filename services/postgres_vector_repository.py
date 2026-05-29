@@ -1,5 +1,5 @@
 from psycopg2.extras import RealDictCursor
-from transcricoes.database.connection import PostgresConnection
+from database.connection import PostgresConnection
 
 class PostgresVectorRepository:
 
