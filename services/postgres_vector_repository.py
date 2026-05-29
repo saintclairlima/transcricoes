@@ -19,21 +19,21 @@ class PostgresVectorRepository:
 
             query = """
             SELECT
-                idMarcador,
-                idDeputado,
-                nomeDeputado,
+                id_marcador,
+                id_deputado,
+                nome_deputado,
                 texto,
-                idVideo,
-                tempoInicial,
-                tempoFinal,
-                dataInclusao,
-                idsSegmentos,
-                chaveFase,
-                tituloFase,
+                id_video,
+                tempo_inicial,
+                tempo_final,
+                data_inclusao,
+                ids_segmentos,
+                chave_fase,
+                titulo_fase,
                 sentimento,
-                tomDiscurso,
+                tom_discurso,
                 temas,
-                numPalavras, 
+                num_palavras, 
                 embeddings <=> %s::vector AS cosine_distance
             FROM transcricao
             ORDER BY cosine_distance ASC
