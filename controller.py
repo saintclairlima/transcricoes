@@ -1,4 +1,4 @@
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, Query
 
 from config.settings import MODELO_EMBEDDINGS
 from config.settings import CHAVE_API_GEMINI
@@ -49,3 +49,33 @@ async def search_documents(request: SearchRequest):
             status_code=500,
             detail=str(e)
         )
+
+
+@router.get(
+    "/search",
+    response_model=SearchResponse
+)
+async def search_documents_get(
+    query: str = Query(..., description="Texto a ser buscado"),
+    top_k: int = Query(10, description="Quantidade de resultados")
+):
+    try:
+        # O resto do código permanece exatamente o mesmo
+        embedding = embedding_service.generate_embedding([query])[0]
+
+        results = repository.search_similar_documents(
+            embedding=embedding,
+            top_k=top_k
+        )
+
+        return {
+            "results": results
+        }
+
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail=str(e)
+        )
+
+
