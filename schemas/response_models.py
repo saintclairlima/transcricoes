@@ -1,6 +1,10 @@
 from pydantic import BaseModel
 from typing import List, Optional
 
+class TemaSchema(BaseModel):
+    nome: str
+    subtemas: List[str]
+    dominancia: float
 
 class TranscricaoResponse(BaseModel):
     id_marcador: Optional[int] = None
