@@ -7,7 +7,7 @@ SENHA_SUPABASE = os.getenv("SUPABASE_PASSWORD")
 CHAVE_API_GEMINI = os.getenv("GEMINI_API_KEY")
 DATABASE_URL = (
     f"postgresql://postgres.vzhighpgtjidzqagnesl:"
-    f"{SUPABASE_PASSWORD}"
+    f"{SENHA_SUPABASE}"
     "@aws-1-us-east-1.pooler.supabase.com:6543/postgres"
 )
 MODELO_EMBEDDINGS = "gemini-embedding-2"
