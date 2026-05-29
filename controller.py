@@ -1,15 +1,21 @@
 from fastapi import APIRouter, HTTPException
 
-from app.schemas.request_models import SearchRequest
-from app.schemas.response_models import SearchResponse
-from app.services.embedding_service import EmbeddingService
-from app.services.postgres_vector_repository import (
+from transcricoes.config.settings import MODELO_EMBEDDINGS
+from transcricoes.config.settings import CHAVE_API_GEMINI
+
+from transcricoes.schemas.request_models import SearchRequest
+from transcricoes.schemas.response_models import SearchResponse
+from transcricoes.services.embedding_service import EmbeddingService
+from transcricoes.services.postgres_vector_repository import (
     PostgresVectorRepository
 )
 
 router = APIRouter()
 
-embedding_service = EmbeddingService()
+embedding_service = EmbeddingService(
+    nome_modelo = MODELO_EMBEDDINGS,
+    chave_api = CHAVE_API_GEMINI
+)
 repository = PostgresVectorRepository()
 
 
