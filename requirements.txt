@@ -1,8 +1,7 @@
 fastapi
 uvicorn
-openai
+google-genai
 psycopg2-binary
 pgvector
 python-dotenv
-pandas
 pydantic
