@@ -33,8 +33,8 @@ class PostgresVectorRepository:
                 sentimento,
                 tom_do_discurso,
                 temas,
-                word_count,
-                embeddings <=> %s AS cosine_distance
+                word_count, 
+                embeddings <=> %s::vector AS cosine_distance
             FROM transcricao
             ORDER BY cosine_distance ASC
             LIMIT %s;
