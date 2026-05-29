@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-SENHA_SUPABASE = os.getenv("SUPABASE_PASSWORD")
+SENHA_SUPABASE = os.getenv("SENHA_SUPABASE")
 CHAVE_API_GEMINI = os.getenv("GEMINI_API_KEY")
 DATABASE_URL = (
     f"postgresql://postgres.vzhighpgtjidzqagnesl:"
