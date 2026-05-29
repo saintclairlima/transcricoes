@@ -1,4 +1,4 @@
-import pandas as pd
+from psycopg2.extras import RealDictCursor
 from app.database.connection import PostgresConnection
 
 class PostgresVectorRepository:
@@ -13,9 +13,9 @@ class PostgresVectorRepository:
         cur = None
 
         try:
-
             conn = PostgresConnection.get_connection()
-            cur = conn.cursor()
+            
+            cur = conn.cursor(cursor_factory=RealDictCursor)
 
             query = """
             SELECT
@@ -44,14 +44,9 @@ class PostgresVectorRepository:
 
             results = cur.fetchall()
 
-            columns = [desc[0] for desc in cur.description]
-
-            dataframe = pd.DataFrame(results, columns=columns)
-
-            return dataframe.to_dict(orient="records")
+            return results
 
         finally:
-
             if cur:
                 cur.close()
 
