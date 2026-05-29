@@ -1,12 +1,12 @@
 from fastapi import APIRouter, HTTPException
 
-from transcricoes.config.settings import MODELO_EMBEDDINGS
-from transcricoes.config.settings import CHAVE_API_GEMINI
+from config.settings import MODELO_EMBEDDINGS
+from config.settings import CHAVE_API_GEMINI
 
-from transcricoes.schemas.request_models import SearchRequest
-from transcricoes.schemas.response_models import SearchResponse
-from transcricoes.services.embedding_service import EmbeddingService
-from transcricoes.services.postgres_vector_repository import (
+from schemas.request_models import SearchRequest
+from schemas.response_models import SearchResponse
+from services.embedding_service import EmbeddingService
+from services.postgres_vector_repository import (
     PostgresVectorRepository
 )
 
