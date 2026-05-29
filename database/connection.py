@@ -1,7 +1,7 @@
 import psycopg2
 from pgvector.psycopg2 import register_vector
 
-from app.config.settings import DATABASE_URL
+from transcricoes.config.settings import DATABASE_URL
 
 
 class PostgresConnection:
