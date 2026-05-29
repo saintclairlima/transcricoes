@@ -15,9 +15,9 @@ class TranscricaoResponse(BaseModel):
     chaveFase: Optional[str]
     tituloFase: Optional[str]
     sentimento: Optional[str]
-    tom_do_discurso: Optional[str]
+    tomDiscurso: Optional[str]
     temas: Optional[str]
-    word_count: Optional[int]
+    numPalavras: Optional[int]
     cosine_distance: float
 
 
