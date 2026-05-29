@@ -31,9 +31,9 @@ class PostgresVectorRepository:
                 chaveFase,
                 tituloFase,
                 sentimento,
-                tom_do_discurso,
+                tomDiscurso,
                 temas,
-                word_count, 
+                numPalavras, 
                 embeddings <=> %s::vector AS cosine_distance
             FROM transcricao
             ORDER BY cosine_distance ASC
