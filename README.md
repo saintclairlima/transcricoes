@@ -1,5 +1,7 @@
 # Transcrições - API de Busca Semântica com PGVector
 
+[https://transcricoes.onrender.com/docs](https://transcricoes.onrender.com/docs)
+
 API para pesquisa semântica em transcrições utilizando:
 
 - FastAPI
