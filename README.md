@@ -16,13 +16,21 @@ A aplicação recebe um texto, gera embeddings vetoriais utilizando Gemini e rea
 ## Arquitetura
 
 Cliente
+
 ↓
+
 FastAPI
+
 ↓
+
 Gemini Embeddings
+
 ↓
+
 PGVector
+
 ↓
+
 Tabela transcricao
 
 ---
