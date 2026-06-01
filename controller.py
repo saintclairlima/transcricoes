@@ -1,4 +1,4 @@
-from fastapi import APIRouter, HTTPException, Query
+from fastapi import APIRouter, HTTPException, Query, FastAPI, Depends
 from fastapi.responses import JSONResponse
 
 from config.settings import MODELO_EMBEDDINGS, CHAVE_API_GEMINI
@@ -6,6 +6,8 @@ from schemas.request_models import SearchRequest
 from schemas.response_models import SearchResponse
 from services.embedding_service import EmbeddingService
 from services.postgres_vector_repository import PostgresVectorRepository
+from services.deputados_temas_service import DeputadoTemaService
+from typing import Optional
 
 router = APIRouter()
 
@@ -15,6 +17,10 @@ embedding_service = EmbeddingService(
     chave_api=CHAVE_API_GEMINI
 )
 repository = PostgresVectorRepository()
+deputado_tema_service = DeputadoTemaService(csv_path="transcricoes_final.csv")
+
+def get_deputado_tema_service():
+    return deputado_tema_service
 
 # --- MÉTODO POST ---
 @router.post(
@@ -65,3 +71,25 @@ async def search_documents_get(
             status_code=500,
             detail=str(e)
         )
+    
+@router.get("/discursos/buscar")
+def buscar(
+    id_deputado: Optional[int] = None,
+    nome_deputado: Optional[str] = None,
+    tema: Optional[str] = None,
+    service: DeputadoTemaService = Depends(get_deputado_tema_service),
+):
+    """Controller: Apenas recebe os parâmetros e repassa para a camada de Service."""
+
+    # Chama a lógica de negócio isolada
+    resultados = service.buscar_discursos(
+        id_deputado=id_deputado, nome_deputado=nome_deputado, tema=tema
+    )
+
+    # Se a base estiver vazia por algum erro de carregamento no service
+    if service.df.empty:
+        raise HTTPException(
+            status_code=500, detail="Base de dados indisponível."
+        )
+
+    return resultados
